@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/MainView.uss?fileID=7433441132597879392&amp;guid=0b72d240ddf54f24e9d568642b5e2237&amp;type=3#MainView" />
+    <ui:VisualElement name="background">
+        <ui:VisualElement name="main-container">
+            <ui:ListView name="character-list" focusable="true" />
+            <ui:VisualElement name="right-container">
+                <ui:VisualElement name="details-container" style="height: 574px;">
+                    <ui:VisualElement name="details">
+                        <ui:VisualElement name="character-portrait" />
+                    </ui:VisualElement>
+                    <ui:Label text="Label" name="character-name" />
+                    <ui:Label text="Label" name="character-class" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

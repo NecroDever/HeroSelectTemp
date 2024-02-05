@@ -1,0 +1,25 @@
+#list-entry {
+    height: 123px;
+    padding-left: 30px;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: rgb(170, 89, 57);
+    border-top-width: 6px;
+    border-right-width: 6px;
+    border-bottom-width: 6px;
+    border-left-width: 6px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-left-color: rgb(49, 26, 17);
+    border-right-color: rgb(49, 26, 17);
+    border-top-color: rgb(49, 26, 17);
+    border-bottom-color: rgb(49, 26, 17);
+}
+
+#character-name {
+    font-size: 54px;
+    color: rgb(49, 26, 17);
+    -unity-font-style: bold;
+}
